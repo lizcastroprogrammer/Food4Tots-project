@@ -1,34 +1,411 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" type="text/css" href="/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="/css/grid.css">
+        <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">        
+        <link rel="stylesheet" type="text/css" href="/css/main.css">
+        <link rel="stylesheet" type="text/css" href="/css/queries.css">
+        <title>Food4Tots</title>
+    </head>
+    <body>
+        <header>
+            <div class="main-div">
+                <div class="nav-div sticky">
+                    <div class="toggle" aria-hidden="true">
+                        <div class="mobile-logo">
+                            <img src="/css/Food4TotsLogo.png" alt="Food4Tots">
+                            <i class="fa fa-bars menu"></i>
+                        </div>
+                    </div>
+                    <div class="logo"><img src="/css/Food4TotsLogo.png" alt="Food4Tots"></div>
+                    <ul class="main-nav active">
+                        <li><a href="#about1">About</a></li>
+                        <li><a href="#steps2">Steps</a></li>
+                        <li><a href="#cities3">Available Cities</a></li>
+                        <li><a href="#plans4">Sign up</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="intro-box">
+                <h1>Food4Tots.</h1>
+                <h3>Healthy food delivery for kids.</h3>
+                <a href="#" class="btn btn-full">Interested!</a>
+                <a href="#" class="btn btn-ghost">Tell me more</a>
+            </div>
+        </header>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
-
-    <link rel="stylesheet" href="css/icon-font.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
-
-    <title>Title</title>
-</head>
-
-<body style='background-image:url("img/full-width.png");background-repeat:no-repeat;background-size:cover;'>
-    <header class='header'>
-
-    </header>
-
-    <main>
-        <section class='section-about'>
-
+        <section class="section-features">
+            <div class="row">
+                <a  id="about1"></a>
+                <h2>Stress-free food delivery for kids</h2>
+                <p>If you're looking for a way for your kids to have healthy homemade meals but don't have the time to plan or cook them, you have come to the right place! Food4Tots is a food delivery system designed to offer the best nutrition for small growing bodies. Feel free to check out our awesome features below!</p>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-4 box">
+                    <i class="ion-ios-cart-outline icon-big"></i>
+                    <h4>Meal variety</h4>
+                    <p>1000+ food options to choose from and over 200 pre-planned and pre-made meals delivered in under 20 minutes.</p>
+                </div>
+                <div class="col span-1-of-4 box">
+                    <i class="ion-ios-heart-outline icon-big"></i>
+                    <h4>Healthy</h4>
+                    <p>All foods and meals are looked over by certified nutritionists and prepared with the most stringent hygiene standards.</p>
+                </div>
+                <div class="col span-1-of-4 box">
+                    <i class="ion-happy-outline icon-big"></i>
+                    <h4>Delicious</h4>
+                    <p>Foods and meals geared towards children aged 1-3. Guarranteed even the most picky eaters will love what we have to offer.</p>
+                </div>
+                <div class="col span-1-of-4 box">
+                    <i class="ion-ios-nutrition-outline icon-big"></i>
+                    <h4>Locally sourced</h4>
+                    <p>All food is organic, fresh, and locally grown. We make it a priority to only buy locally grown foods because it's better for the environment and healthier for you.</p>
+                </div>
+            </div>
         </section>
 
-    </main>
+        <section class="section-meals">
+            <ul class="meals-showcase clearfix">
+                <li>
+                    <figure class="meal-photo">
+                        <img src="https://images.pexels.com/photos/674574/pexels-photo-674574.jpeg?auto=compress&cs=tinysrgb&h=350" alt="Curry and rice">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo">
+                        <img src="https://images.pexels.com/photos/236798/pexels-photo-236798.jpeg?auto=compress&cs=tinysrgb&h=350" alt="Cheesy potato casserole">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo">
+                        <img src="https://images.pexels.com/photos/803290/pexels-photo-803290.jpeg?auto=compress&cs=tinysrgb&h=350" alt="Pizza">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo">
+                        <img src="https://images.pexels.com/photos/361184/asparagus-steak-veal-steak-veal-361184.jpeg?auto=compress&cs=tinysrgb&h=350" alt="Ham and asparagus">
+                    </figure>
+                </li>
+            </ul>
+            <ul class="meals-showcase clearfix">
+                <li>
+                    <figure class="meal-photo">
+                        <img src="https://images.pexels.com/photos/128388/pexels-photo-128388.jpeg?auto=compress&cs=tinysrgb&h=350" alt="Scallop and egg salad">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo">
+                        <img src="https://images.pexels.com/photos/992824/pexels-photo-992824.jpeg?auto=compress&cs=tinysrgb&h=350" alt="Fruits and vegetables">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo">
+                        <img src="https://images.pexels.com/photos/793785/pexels-photo-793785.jpeg?auto=compress&cs=tinysrgb&h=350" alt="Avocado toast with egg">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="meal-photo">
+                        <img src="https://images.pexels.com/photos/723198/pexels-photo-723198.jpeg?auto=compress&cs=tinysrgb&h=350" alt="Rice with cashews and sauce">
+                    </figure>
+                </li>
+            </ul>
+        </section>
 
-    <div>
-    </div>
+        <section class="section-steps">
+            <div class="row">
+                <a id="steps2"></a>
+                <h2>How it works &mdash; Simple as 1, 2, 3</h2>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-2 steps-box">
+                    <img src="https://www.att.com/catalog/en/skus/Apple/Apple%20iPhone%20X/overview/326743-pdp-iphoneX-s2-1@2x.jpg" alt="iPhone" class="app-screen">
+                </div>
+                <div class="col span-1-of-2 steps-box">
+                    <div class="works-step">
+                        <div>1</div>
+                        <p>Choose the subscription plan that best fits your needs and sign up today.</p>
+                    </div>
+                    <div class="works-step">
+                        <div>2</div>
+                        <p>Order your delicious foods or meal using our mobile app or website.</p>
+                    </div>
+                    <div class="works-step">
+                        <div>3</div>
+                        <p>Enjoy the quick delivery of your food in less than 20 minutes.</p>
+                    </div>
+                    <div class="app-box">
+                        <a href="#" class="btn-app"><img src="/css/download-app.svg" alt="App Store Button"></a>
+                        <a href="#" class="btn-app"><img src="/css/download-app-android.png" alt="Play Store Button"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-</body>
-
+        <section class="section-cities" id="cities3">
+            <div class="row">
+                <h2>We're currently in these cities</h2>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-4 box">
+                    <img src="https://images.pexels.com/photos/273204/pexels-photo-273204.jpeg?auto=compress&cs=tinysrgb&h=350" alt="Austin" class="city-photo">
+                    <h4>Austin</h4>
+                    <div class="city-feature">
+                        <i class="ion-person icon-small"></i>
+                        1600+ satisfied customers
+                    </div>
+                    <div class="city-feature">
+                        <i class="ion-network icon-small"></i>
+                        4 delivery sites
+                    </div>
+                    <div class="city-feature">
+                        <i class="ion-social-twitter icon-small"></i>
+                        <a href="#">@food4tots_atx</a>
+                    </div>
+                </div>
+                <div class="col span-1-of-4 box">
+                    <img src="https://images.pexels.com/photos/220765/pexels-photo-220765.jpeg?auto=compress&cs=tinysrgb&h=350" alt="San Francisco" class="city-photo">
+                    <h4>San Francisco</h4>
+                    <div class="city-feature">
+                        <i class="ion-person icon-small"></i>
+                        1900+ satisfied customers
+                    </div>
+                    <div class="city-feature">
+                        <i class="ion-network icon-small"></i>
+                        5 delivery sites
+                    </div>
+                    <div class="city-feature">
+                        <i class="ion-social-twitter icon-small"></i>
+                        <a href="#">@food4tots_sf</a>
+                    </div>
+                </div>
+                <div class="col span-1-of-4 box">
+                    <img src="https://images.pexels.com/photos/275582/pexels-photo-275582.jpeg?auto=compress&cs=tinysrgb&h=350" alt="New York City" class="city-photo">
+                    <h4>New York City</h4>
+                    <div class="city-feature">
+                        <i class="ion-person icon-small"></i>
+                        2000+ satisfied customers
+                    </div>
+                    <div class="city-feature">
+                        <i class="ion-network icon-small"></i>
+                        6 delivery sites
+                    </div>
+                    <div class="city-feature">
+                        <i class="ion-social-twitter icon-small"></i>
+                        <a href="#">@food4tots_nyc</a>
+                    </div>
+                </div>
+                <div class="col span-1-of-4 box">
+                    <img src="https://images.pexels.com/photos/462370/pexels-photo-462370.jpeg?auto=compress&cs=tinysrgb&h=350" alt="Seattle" class="city-photo">
+                    <h4>Seattle</h4>
+                    <div class="city-feature">
+                        <i class="ion-person icon-small"></i>
+                        1200+ satisfied customers
+                    </div>
+                    <div class="city-feature">
+                        <i class="ion-network icon-small"></i>
+                        2 delivery sites
+                    </div>
+                    <div class="city-feature">
+                        <i class="ion-social-twitter icon-small"></i>
+                        <a href="#">@food4tots_se</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section-testimonials">
+            <div class="row">
+                <h2>Our customers love our service!</h2>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <blockquote>
+                            I am a single father to two young girls and was at a loss as to how to cook healthy nutritious meals for them every night. A friend told me about Food4Tots and I knew I had to try it out. Since using them I no longer have to worry about finding the time to plan and cook my daughters' meals. Not only that but they love the food! 
+                            <cite><img src="/css/customer-1.jpg">Jake Thomas</cite>
+                    </blockquote>
+                </div>
+                <div class="col span-1-of-3">
+                    <blockquote>
+                            My husband and I both work full-time and struggled to find the time to plan and cook healthy meals for our two year old son. He is also a very picky eater and I was at my wits end trying to find food that he would actually eat. We decided to try Food4Tots after reading a blog post about it and were delighted when our son loved it!
+                            <cite><img src="/css/customer-2.jpg">Laurie Smith</cite>
+                    </blockquote>
+                </div>
+                <div class="col span-1-of-3">
+                    <blockquote>
+                            My wife and I love this service! We order the food on an as needed basis and it gives my wife, who is a stay-at-home mom to our three young children, a very much needed break. The food tastes delicious (we tried it!) and on the times we do order it, we have time to relax and spend time together as a family. It's definitely money well spent!
+                            <cite><img src="/css/customer-3.jpg">Frank Anderson</cite>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section-plans"  id="plans4">
+            <div class="row">
+                <h2>Choose the best plan for you</h2>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3 box">
+                    <div class="plan-box">
+                        <div>
+                            <h4>Premium</h4>
+                            <p class="plan-price">$179<span>/ month</span></p>
+                            <p class="price-per-meal">That's only $5.77 per meal</p>
+                        </div>
+                        <div>
+                            <ul>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>1 meal everyday</li>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Order 24/7</li>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Access newest creations</li>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Free delivery</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <a href="#" class="btn btn-full">Sign up</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col span-1-of-3 box">
+                    <div class="plan-box">
+                        <div>
+                            <h4>Pro</h4>
+                            <p class="plan-price">$69 <span>/ month</span></p>
+                            <p class="price-per-meal">That's only $6.90 per meal</p>
+                        </div>
+                        <div>
+                            <ul>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>1 meal 10 days/month</li>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Order 24/7</li>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Access to newest creations</li>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Free delivery</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <a href="#" class="btn btn-ghost">Sign up</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col span-1-of-3 box">
+                    <div class="plan-box">
+                        <div>
+                            <h4>Starter</h4>
+                            <p class="plan-price">$10 <span>/ meal</span></p>
+                            <p class="price-per-meal">&nbsp;</p>
+                        </div>
+                        <div>
+                            <ul>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>1 meal</li>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Order from 8am to 12pm</li>
+                                <li><i class="ion-ios-close-empty icon-small"></i></li>
+                                <li><i class="ion-ios-checkmark-empty icon-small"></i>Free delivery</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <a href="#" class="btn btn-ghost">Sign up</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section-contact">
+            <div class="row">
+                <h2>We're happy to hear from you</h2>
+            </div>
+            <div class="row">
+                <form  method="post" action="#" class="contact-form">
+                    <div class="row">
+                <div class="col span-1-of-3">
+                    <label for="name">Name</label>
+                </div>
+                <div class="col span-2-of-3">
+                    <input type="text" name="name" id="name" placeholder="Your name" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <label for="email">Email</label>
+                </div>
+                <div class="col span-2-of-3">
+                    <input type="email" name="email" id="email" placeholder="Your email" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <label for="find-us">How did you find us?</label>
+                </div>
+                <div class="col span-2-of-3">
+                    <select name="find-us" id="find-us">
+                        <option value="friend" selected>Friends</option>
+                        <option value="search">Search Engine</option>
+                        <option value="ad">Advertisement</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <label>Newsletter</label>
+                </div>
+                <div class="col span-2-of-3">
+                    <input type="checkbox" name="newsletter" id="newsletter" checked> Yes, please
+                </div>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <label>Drop us a line</label>
+                </div>
+                <div class="col span-2-of-3">
+                    <textarea name="message" placeholder="Your message"></textarea>
+                </div>
+            </div>
+                    <div class="row">
+                <div class="col span-1-of-3">
+                    <label>&nbsp;</label>
+                </div>
+                <div class="col span-2-of-3">
+                    <input type="submit" value="Send it!">
+                </div>
+            </div>
+                </form>
+            </div>
+        </section>
+        
+        <footer>
+            <div class="row">
+                <div class="col span-1-of-2">
+                    <ul class="footer-nav">
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">iOS App</a></li>
+                        <li><a href="#">Android App</a></li>
+                    </ul>
+                </div>
+                <div class="col span-1-of-2">
+                    <ul class="social-links">
+                        <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+                        <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+                        <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+                        <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+                <div class="row">
+                    <p>
+                        Copyright &copy; 2018 by Food4Tots. All rights reserved.
+                    </p>
+                </div>
+        </footer>
+        <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+        <script type="text/javascript" src="resources/js/javascript.js"></script>
+    </body>
 </html>
+
+
