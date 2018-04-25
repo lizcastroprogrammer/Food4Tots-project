@@ -70,7 +70,7 @@
     .plan-box ul li { font-size: 90%;}
 }
 
-@media only screen and (max-width: 685px) {
+@media only screen and (max-width: 694px) {
     
     .nav-div ul {
         width: 100%;
@@ -81,7 +81,7 @@
     .mobile-logo img { 
         display: inline-block;
         float: left;
-        margin: -35px 0 0 -13px;
+        margin: -40px 0 0 -13px;
         height: 115px;
         width: auto;
     }
@@ -91,8 +91,18 @@
         display: block;
         text-align: center;
         float: none;
+        padding: 5px;
     }
     
+    .nav-div ul li a:hover,
+    .nav-div ul li a:active { 
+        border-bottom: 0;
+        color: #cac7c7; 
+    }
+
+    .nav-div ul li a:link,
+    .nav-div ul li a:visited { border-bottom: 0; }
+
     .logo { display: none;}
     
     .toggle { 
@@ -100,8 +110,27 @@
         overflow: hidden;
         height: 70px;
     }
+
+    .main-div {
+        background-color: rgba(248, 246, 246, 0.2);
+        height: 57px;
+        margin: 0;
+    }
     
-    .active { display: none;}
+    .nav-div ul { 
+        background-color: rgba(248, 246, 246, 0.2); 
+        height: 170px;
+        margin: -15px 0 0 0;
+    }
+
+    .sticky ul {
+        background-color: rgba(255, 255, 255, .98);
+        box-shadow: 0 1px 3px #efefef;
+    }
+
+    .active { 
+        display: none;
+    }
     
     .intro-box {
         width: 95%;
