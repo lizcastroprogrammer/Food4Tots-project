@@ -1,10 +1,14 @@
 @media only screen and (max-width: 1200px) {
     .logo {
-        margin: -32px 0 0 30px;
+        margin: -40px 0 0 0;
         transform: scale(1, 1);
     }
     
-    .nav-div ul li { margin: 40px 0;}
+    .nav-div ul li { margin: 15px 0;}
+
+    .nav-div ul:last-child { padding-right: 40px;}
+
+    .sticky ul li { padding-top: 3px;}
     
     .steps-box:last-child { margin-top: 47px;}
     
@@ -14,6 +18,13 @@
 @media only screen and (max-width: 1000px) {
     html, body { font-size: 18px;}
 
+    .logo {
+        margin: -50px 0 0 -20px;   
+        transform: scale(.85, .85);
+    }
+
+    .sticky ul li { padding-top: 16px;}
+
     .intro-box {
         position: absolute;
         top: 50%;
@@ -21,6 +32,8 @@
         width: 80%;
     }
     
+    .nav-div ul li { margin: 5px 0;}
+
     .nav-div ul:last-child { padding-right: 5px;}
     
     .works-step:last-of-type { margin-bottom: 45px;}
@@ -32,10 +45,18 @@
     .nav-div ul:last-child { padding-right: 5px;}
     
     .logo {
-        margin: -43px 0 0 20px;
-        transform: scale(.9, .9);
+        margin: -53px 0 0 -20px;
+        transform: scale(.8, .8);
     }
     
+    .nav-div ul li a:hover,
+    .nav-div ul li a:active { padding-bottom: 12px;}
+
+    .nav-div ul li a:link,
+    .nav-div ul li a:visited { padding-bottom: 12px;}
+
+    .sticky ul li { padding-top: 15.5px;}
+
     div h2 + p { margin: 30px 70px;}
     
     .meal-photo img {
@@ -97,7 +118,7 @@
     .nav-div ul li a:hover,
     .nav-div ul li a:active { 
         border-bottom: 0;
-        color: #cac7c7; 
+        color: #F7CA18; 
     }
 
     .nav-div ul li a:link,
